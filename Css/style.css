@@ -1,0 +1,633 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Montserrat:wght@200&display=swap');
+/* Global css */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    font-family: 'Dosis', sans-serif;
+}
+section {
+    padding: 100px 0px;
+
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.heading-one {
+
+}
+.heading-two {
+
+font-size: 22px;font-weight: 550;}
+.button {
+
+   color: #313131;
+   background-color: #00fff0;  
+   font-size: 18px;
+   padding: 8px 30px;
+   border-radius: 6px;
+   
+}
+.button:hover {
+    
+    box-shadow:  3px  3px chocolate ;
+    transition:  0.6s ;
+    background: white;
+}
+
+.p {
+    font-size: 14px;
+    color: gray;
+
+}
+
+
+/* Layout css */
+.row {
+    width: 100%;
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    float: left;
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+/* Header part start */
+
+header {
+    background-color: #223047;
+    color: white;
+
+}
+nav {
+
+margin: 10px 0px;
+
+border-bottom: 1px solid #564c54;
+
+padding: 10px 0px;
+}
+
+
+.logo-part {
+
+}
+.menu-part {
+
+}
+.menu-part ul {
+
+text-align: center;
+}
+
+ul {}
+.menu-part li {
+
+list-style: none;display: inline-block;
+}
+.menu-part a {
+    
+font-size: 15px;padding: 10px;color: white;font-weight: 500;
+}
+.button-part {
+
+text-align: end;
+}
+.button-part a {
+     
+}
+.hero-writing-part{padding: 180px 100px;}
+.hero-writing-part h1 {font-weight: 550;}
+
+.hero-writing-part p {
+
+margin: 50px 0px;
+
+font-weight: 300;
+
+font-size: 14px;
+}
+.hero-writing-part a button {
+
+font-size: 14px;
+
+font-weight: 600;
+
+padding: 10px 30px;
+}
+.ksn {
+    background:transparent;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.ksn:hover {
+    background-color: #223047;
+    box-shadow: 0px 0px 6px #fff;
+    transition: 0.6s;
+    
+}
+
+
+.hero-img-part {
+
+text-align: center;
+
+position: relative;
+
+top: 100px;
+}
+.hero-img-part img {
+    text-align: center;
+
+    
+}
+/* Header part end */
+
+
+/* about part start */
+#about {
+    text-align: center;
+
+}
+.about-writing-part {
+
+margin-top: 60px;
+}
+.about-writing-part h2{
+
+}
+.underline {
+    border-top: 4px solid ;
+    display: block;
+    width: 6%;
+    margin: 50px  auto;
+    border-radius: 6px;
+    color: #00fff1 ;
+    
+    
+
+}
+.about-box-part {
+
+margin-bottom: 0px;
+}
+.box-part {
+   padding: 20px;
+}
+.box-part:hover {
+    background-color:  #fff;
+    box-shadow: 0px 1px 2px rgb(190, 172, 172);
+    
+}
+.box-part img {
+
+height: 100px;}
+.box-part h2 {
+
+font-size: 20px;font-weight: 650;margin: 10px;}
+.box-part p {
+
+font-size: 15px;font-weight: 400;margin: 20px;}
+/* about part end */
+
+/* Info part start */
+#info {
+
+
+
+}
+.blank {
+    
+height: 303px;
+    
+background: #323a4d;
+    
+padding: 0px;
+    
+}
+.info-part {
+
+padding: 100px 130px;
+
+background: #f5f6fa;
+
+max-height: 303px;
+
+}
+.info-part h3 {
+
+}
+.info-part p {
+
+font-size: 15px;margin: 20px 0px;width: 90%;}
+/* Info part end */
+
+
+/* App prasentation part star */
+#app  {
+
+}
+.app-top {
+
+}
+.app-top-writing-part {
+
+text-align: end;
+
+padding: 76px 20px;
+
+margin: 0px 0px 55px 0px;
+}
+.app-top-writing-part h3 {
+
+}
+.app-top-writing-part p {
+
+padding: 20px 0px;
+}
+.app-top-writing-part a button {
+
+padding: 9px 20px;
+
+font-size: 15px;
+
+font-weight: 550;
+}
+.app-top-img-part {
+    padding: 0px 90px;
+}
+.app-top-img-part img {
+
+}
+.app-middle {
+
+margin: 50px 0px 0px 0px;
+}
+.app-middle-img-part {
+
+position: relative;
+
+top: 70px;
+}
+.app-middle-img-part img {
+
+}
+.app-middle-box-part {
+
+padding: 0px 70px;
+}
+.app-box {
+
+margin: 40px;
+
+box-shadow: 0px 1px 2px blue;
+
+padding: 20px;
+border-radius: 6px;
+}
+.app-box:hover {
+    transition: 0.6s;
+    background-color: #00fff0;
+    box-shadow: 0px 0px 4px 4px#00fff0 ;
+    color: red;
+
+}
+.app-box i {
+
+}
+.app-box h3 {
+    
+display: inline-block;
+}
+.app-bottom {
+
+background: #f5f6fa;
+}
+.app-bottom-writing-part {
+
+padding: 140px 120px 10PX 120PX;
+
+text-align: end;
+}
+.app-bottom-writing-part h3 {
+
+padding-bottom: 15px;
+}
+.app-bottom-writing-part i {
+
+padding: 20px 0px;
+
+color: blue;
+
+margin: 0px 10px;
+}
+.app-bottom-writing-part p {
+
+padding: 10px 0px;
+}
+
+.app-bottom-img-part {
+
+padding-: 50px 0px 0px 20px;
+
+padding: 50px 0px 0px 20px;
+}
+.app-bottom-img-part img {
+    
+width: 60%;
+}
+
+
+/* App prasentation part end */
+
+
+/* Video part Start */
+#video {
+
+text-align: center;
+
+background: #223047;
+
+padding: 150px;
+}
+#video i{font-size: 20px;color: #223047;background: #00fff0;padding: 25px;border-radius: 100px;}
+#video h2 {
+
+margin: 30px 0px;
+
+color: white;
+}
+#video p{
+    
+width: 60%;
+    
+margin: auto;
+    
+color: white;
+
+font-weight: 200;
+}
+
+/* Video part end */
+
+
+/* Download part star */
+#download {
+
+}
+.map {
+    background: url(../ImgðŸ’•/map.png)  center;
+    background-size: cover ;
+
+text-align: center;
+}
+.map h1 {
+
+padding-top: 40px;
+
+font-weight: 500;
+}
+.map p {
+
+padding: 20px 0px;
+
+font-weight: 300;
+}
+.map a button {margin: 20px;font-weight: 400;border-radius: 0px;}
+
+/* Download part end */
+
+
+/* quotetion part start */
+#quotetion {
+
+background: #223047;
+
+text-align: center;
+}
+#quotetion p {
+
+width: 52%;
+
+margin: auto;
+
+color: #00fff1;
+
+font-size: 15px;
+}
+
+/* quotrtion part end */
+
+/* App add part start */
+#app-add {
+
+background: #f5f6fa;
+}
+.app-add-img-part  {
+
+}
+.app-add-img-part img {
+
+}
+.app-add-writing-part {
+
+margin: 130px 0px;
+
+width: 40%;
+}
+.app-add-writing-part h1 {
+
+font-size: 30px;
+
+font-weight: 600;
+}
+.app-add-writing-part p {margin: 30px 0px 60px 0px;
+}
+.store-part {
+
+}
+.store-part img {
+
+margin-right: 20px;
+}
+.ps-button {
+
+text-align: center;
+}
+.ps-button a button {
+    
+padding: 16px 90px;
+    
+font-size: 12px;
+    
+font-weight: 600;
+    
+position: relative;
+    
+top: -25px;
+}
+.button:hover {
+    box-shadow: 0px 0px 6px #00fff0;
+    background-color: #00fff0;
+    transition: 0.6s;
+}
+
+/* App add part end */
+
+
+/* Footer widget part start */
+#footer-widget {
+
+}
+.footer-link-part {
+
+}
+.footer-link {WIDTH: 20%;float: left;text-align: start;}
+.footer-link h4 {margin: 10px 0px;}
+.footer-link ul {
+
+font-size: 14px;
+}
+.footer-link li {
+
+list-style: none;
+
+margin: 08px 0px;
+}
+.footer-link a {
+    
+}
+.footer-link a:hover {
+    background-color: #00fff0;
+    transition: ease-in-out 0.6s;
+    padding: 5px 10px;
+    border-radius: 6px;
+} 
+/* Newslatter part */
+#newslatter {
+   text-align: center;
+   padding: 0px 0px;
+}
+#newslatter h3 {
+
+margin-top: 80px;
+
+font-size: 25px;
+}
+#newslatter p{
+   margin: 20px 0px;
+   padding-bottom: 30px;
+}
+#newslatter input {
+
+margin-left: 20px;
+border-radius: 0px;
+}
+
+.email {
+    
+background: #f5f6fa;
+    
+border-radius: 0px;
+    
+width: 40%;
+
+padding: 11px;
+}
+
+
+
+/* Footer widget part end */
+
+
+/* Footer  part start */
+footer {
+
+background: #223047;
+
+padding: 30px 0px;
+}
+.copywrite {
+
+}
+.copywrite p {
+
+color: #7efcf1;
+
+font-size: 16px;
+}
+.social-icon {
+
+text-align: end;
+}
+.social-icon i {
+    
+margin: 0px 20px;
+    
+font-size: 20px;
+    
+color: white;
+}
+.social-icon i:hover {
+    color: #00fff0;
+    transition: 0.6s;
+    font-size: 30px;
+    
+}
+
+/* Footer  part end */
+
